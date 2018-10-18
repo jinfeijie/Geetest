@@ -82,7 +82,7 @@ class Geetest_Plugin implements Typecho_Plugin_Interface{
     /*  尾部加入js */
     public static function footer(){
         $option = Typecho_Widget::widget('Widget_Options')->plugin('Geetest');
-        $out_js = "<script src=\"//cdn.bootcss.com/jquery/1.9.1/jquery.min.js\"></script>
+        $out_js = "<script src=\"//cdn.staticfile.org/jquery/1.9.1/jquery.min.js\"></script>
 <script src=\"//static.geetest.com/static/tools/gt.js\"></script>";
         $geeTest_js = "
 <script>
@@ -127,9 +127,9 @@ class Geetest_Plugin implements Typecho_Plugin_Interface{
             }
         });
         // 插件作者用于统计插件使用次数，为推动作者更新插件，请勿删除以下代码
-        window.onload = function(){
-          $.ajax({url:'https://jinfeijie.cn/counts.php?action=add'});
-        }
+        // window.onload = function(){
+        //   $.ajax({url:'https://jinfeijie.cn/counts.php?action=add'});
+        // }
     }
 </script>
 ";

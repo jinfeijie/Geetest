@@ -3,7 +3,8 @@
 演示站点：[https://typecho.strcpy.cn](https://typecho.strcpy.cn)
 
 ### 更新版本说明
-
+ - 1.0.4
+ 	1. 更新JQuery的CDN地址。Bootcss挂了
  - 1.0.3
  	1. 极验证SDK升级
  	2. Typecho接口更新兼容。
@@ -41,7 +42,7 @@
 下载代码至`usr/plugins`，解压后进入后台启用插件。
 
 ### 下载链接
-`wget https://jinfeijie.cn/Doc/Geetest.zip`
+`wget https://github.com/jinfeijie/Geetest/archive/1.0.4.zip`
 
 ### 解压方法
 `unzip Geetest.zip`
